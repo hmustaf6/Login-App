@@ -2,23 +2,33 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url('/assets/background_png.png');
+    background-image: url('/assets/code.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
+    display: flex;
+    flex-direction: column;
+  }
 
 .center-div{
     padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .btn.btn-success{
     padding: .4em 2em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 form{
     padding: 0 3em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #login .title > span{
     font-size: .8em;
+    display: flex;
+    flex-wrap: wrap; 
 }
